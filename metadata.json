@@ -1,0 +1,6 @@
+{
+  "name": "Grammar Tower: Rising Lava Race",
+  "description": "A high-octane 3D Roblox-style tower race where players answer grammar questions and fix grammatical errors to stack tower blocks and escape the rising boiling lava.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
