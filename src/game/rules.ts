@@ -77,7 +77,7 @@ export function calculateLavaSpeed(elapsedSeconds: number, currentHeight: number
   }
 
   // Base speed: 0.28 m/s (~7.2 seconds per 2m block at the start)
-  const baseSpeed = 0.28;
+  const baseSpeed = 0.5;
   // Accelerates smoothly with time: +0.08 m/s every 10 seconds
   const timeAcceleration = Math.min(elapsedSeconds * 0.008, 0.9);
   // Accelerates with height: +0.06 m/s per 10m climbed
